@@ -11,9 +11,10 @@ header {
     font-family: 'Montserrat';
     font-size: 15px;
 }
+
 header nav {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
 
 #home {
@@ -24,14 +25,8 @@ header nav {
     display: block; 
 }
 
-#algo2 {
-    flex:1;
-    display: flex;
-    align-items: center;    
-    column-gap: 3%;
-}
 
-#menu3 {
+#menu1 {
     color:rgb(246, 191, 123);
 }
 
@@ -47,6 +42,7 @@ header nav ul {
     line-height: 50px;
     text-transform: uppercase;
     color:white;
+    
 }
 
 .link {
@@ -61,7 +57,6 @@ header nav ul {
     
 }
 
-
 body {
     background-color: rgb(31, 31, 31);
     font-family: 'Montserrat';
@@ -72,25 +67,7 @@ body {
     width:100vw;
 }
 
- section article form {
- margin: auto;
- display: block;
- width: 270px;
- height: 330px;
- color:white;
- }
- 
-#about {
-    display: flex;
-    column-gap: 20%;
-}
-
- p {
-    padding: 0px 25%;
-    text-align: justify;
-    color: white;
- }
- footer {
+footer {
     background-color: rgb(16, 16, 16);
     width: 100%;
     padding: 0px 10%;

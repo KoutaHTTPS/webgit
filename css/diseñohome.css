@@ -4,11 +4,12 @@
 }
 
 header {
-    background-color: rgb(42, 112, 120);
+    background-color: rgb(16, 16, 16);
     position: fixed;
     height: 50px;
     width: 100%;
-    font-family: 'Montserrat';font-size: 15px;
+    font-family: 'Montserrat';
+    font-size: 15px;
 }
 
 header nav {
@@ -20,14 +21,13 @@ header nav {
     width: 35px;
     height:40px;
     line-height: 50px;
-    margin-left: 1%;
-    margin-top:1mm;
     float: left;  
     display: block; 
 }
 
+
 #menu2 {
-    color:bisque;
+    color:rgb(246, 191, 123);
 }
 
 header nav ul {
@@ -52,70 +52,104 @@ header nav ul {
 }
 
 .link:hover {
-    background-color: rgba(110, 111, 112, 0.733);
-    transition: 0,5s;   
+    color: #9e9e9e;
+    transition: 0.5s;   
+    
 }
 
 body {
-    background-color: rgb(45, 130, 139);
-    font-family: 'Montserrat';font-size: 22px;
+    background-color: rgb(31, 31, 31);
+    font-family: 'Montserrat';
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width:100vw;
 }
 
+#algo {
+    flex:1;
+    display: flex;
+    align-items: center;    
+    column-gap: 3%;
+}
 
  #ktcentro {
- margin-right: 20%;
  display: block;
  width: 270px;
  height: 330px;
  float:right;
- margin-left: 4%
+ fill: white;
  }
  
-article p {
-
-    margin-bottom: 6%;
-    padding: 0px 10%;
-    color: rgb(255, 255, 255);
-    margin-bottom:60px;
-    margin-top: 7%;
+#about {
+    width: 50%;  
+    height: 343px;
+    justify-content: flex-end;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column; /* columnas ajuste */
+    row-gap: 40px;
 }
+
+article p {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+/* Redes */ /* Redes */ /* Redes */ /* Redes */ /* Redes *//* Redes *//* Redes *//* Redes *//* Redes */
 
 #redes {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 7%;
     
 }
 
 #instagram {
     width: 40px;
     height: 40px;
-    margin-left: 22%;
     float:left;
-    color:white;
+    fill:white;
+    transition: fill linear 250ms;
+    transition: transform ease-in-out 250ms; 
 
 }
 
-&#intagram:hover {
-    color: #c0c0c0
+#instagram:hover {
+    fill: #dc7a09;
+    transform: translateY(-10px);
 }
 
 #linkedin {
     width: 40px;
     height: 40px;
-    margin-left: 5%;
     float:left;
-    color:white;
+    fill:white;
+    transition: fill linear 250ms;
+    transition: transform ease-in-out 250ms; 
+}
+#linkedin:hover {
+    fill: #0077b5;
+    transform: translateY(-10px);
 }
 
 #github{
-    width: 40px;
-    height: 40px;
-    margin-left: 5%;
-    margin-bottom: 10%;
-    color:white;
+    width: 43px;
+    height: 43px;
+    fill:white;
+    transition: fill linear 250ms;
+    transition: transform ease-in-out 250ms; 
 }
+#github:hover {
+    fill: #000000;
+    transform: translateY(-10px);
+}
+
+/* Redes *//* Redes *//* Redes *//* Redes *//* Redes *//* Redes *//* Redes *//* Redes *//* Redes *//* Redes */
  footer {
-    margin-bottom: 0%;
-    background-color: rgb(24, 66, 71);
+    background-color: rgb(16, 16, 16);
     width: 100%;
     padding: 0px 10%;
  }
@@ -123,5 +157,6 @@ article p {
  footer p {
     color: aliceblue;
     text-align: center;
-    font-family: 'Montserrat';font-size: 13px;
+    font-family: 'Montserrat';
+    font-size: 13px;
  }
