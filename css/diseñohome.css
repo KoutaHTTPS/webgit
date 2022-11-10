@@ -17,12 +17,14 @@ header nav {
     justify-content: center; 
 }
 
+
 #home {
     width: 35px;
     height:40px;
     line-height: 50px;
     float: left;  
-    display: block; 
+    display: block;
+    margin: 4px; 
 }
 
 
