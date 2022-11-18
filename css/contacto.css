@@ -63,7 +63,7 @@ header nav ul {
 
 
 body {
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(255, 0, 0);
     font-family: 'Montserrat';
     font-size: 22px;
     display: flex;
@@ -72,17 +72,19 @@ body {
     width:100vw;
 }
 
- section article form {
- margin: auto;
- display: block;
- width: 270px;
- height: 330px;
- color:white;
- }
- 
-#about {
+#datos {
+    align-items: flex-start;
+}
+
+#algo2 {
     display: flex;
-    column-gap: 20%;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+}
+
+#boton {
+
 }
 
  p {

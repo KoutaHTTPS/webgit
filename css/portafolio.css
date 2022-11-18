@@ -65,15 +65,14 @@ body {
     flex-direction: column;
     height:100vh;
     width:100vw;
-    align-items: center;
+    align-items: center; 
 }
- #construccion {
-    text-align: center;
-    color:red;
-    
+
+ .img {
+    width: 26%;
+    height: 45%;
+
  }
-
-
  #centro {
     flex:1;
     display: flex;
