@@ -4,11 +4,17 @@
 }
 
 header {
-    background-color: rgba(169, 169, 169, 0.482);
+    background-color: rgb(31, 31, 31);
     position: fixed;
-    height:50px;
+    height: 50px;
     width: 100%;
-    font-family: 'Montserrat';font-size: 15px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+
+header nav {
+    display: flex;
+    justify-content: right; 
 }
 
 header nav ul {

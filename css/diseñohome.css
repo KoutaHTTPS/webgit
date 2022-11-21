@@ -228,7 +228,7 @@ article p {
 
 /* Redes *//* Redes *//* Redes *//* Redes *//* Redes *//* Redes *//* Redes *//* Redes *//* Redes *//* Redes */
 footer {
-    background-color: rgb(16, 16, 16);
+    background-color: rgb(21, 21, 21);
     width: 100%;
     padding: 0px 10%;
  }
@@ -237,5 +237,5 @@ footer {
     color: aliceblue;
     text-align: center;
     font-family: 'Montserrat';
-    font-size: 13px;
+    font-size: 12px;
  }

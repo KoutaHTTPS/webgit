@@ -4,25 +4,30 @@
 }
 
 header {
-    background-color: rgb(16, 16, 16);
+    background-color: rgba(16, 16, 16, 0);
     position: fixed;
     height: 50px;
     width: 100%;
     font-family: 'Montserrat';
-    font-size: 15px;
+    font-size: 12px;
 }
 header nav {
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 #home {
+    margin-top: 10px;
+    margin-left: 10px;
     width: 35px;
-    height:40px;
-    line-height: 50px;
+    height:35px;
     float: left;  
-    display: block; 
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight:bolder;
+    color: aliceblue;
 }
+
 
 #algo2 {
     flex:1;
@@ -63,7 +68,7 @@ header nav ul {
 
 
 body {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(31, 31, 31);
     font-family: 'Montserrat';
     font-size: 22px;
     display: flex;
@@ -78,7 +83,6 @@ body {
 
 #algo2 {
     display: flex;
-    background-color: aqua;
     align-items: center;
     justify-content: center;
 }
@@ -92,6 +96,44 @@ body {
     text-align: justify;
     color: white;
  }
+
+ 
+/* Formulario caracteristicas */
+.contact  {
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+    }
+    
+    .recuadro {
+        display: block;
+        background: transparent;
+        border:none;
+        border-bottom: 1px solid rgb(246, 191, 123);
+        font-family: "Montserrat";
+        margin: 20px 70px;
+    }
+
+    
+    #boton {
+    display: inline-block;
+    border-color: rgb(186, 142, 88);
+    background-color:rgb(186, 142, 88);
+    text-decoration: none;
+    border-radius: 10%;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    }
+
+
+
+/* Formulario caracteristicas */
+
+
  footer {
     background-color: rgb(16, 16, 16);
     width: 100%;

@@ -4,17 +4,17 @@
 }
 
 header {
-    background-color: rgb(16, 16, 16);
+    background-color: rgba(16, 16, 16, 0);
     position: fixed;
     height: 50px;
     width: 100%;
     font-family: 'Montserrat';
-    font-size: 15px;
+    font-size: 12px;
 }
 
 header nav {
     display: flex;
-    justify-content: center; 
+    justify-content: right; 
 }
 
 #home {
