@@ -26,14 +26,16 @@ header nav {
     font-size: 20px;
     font-weight:bolder;
     color: aliceblue;
+    padding: 0%;
 }
 
 
-#algo2 {
+.algo2 {
     flex:1;
     display: flex;
     align-items: center;    
     column-gap: 3%;
+    justify-content: center;
 }
 
 #menu3 {
@@ -81,11 +83,6 @@ body {
     align-items: flex-start;
 }
 
-#algo2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 #boton {
 
@@ -98,17 +95,20 @@ body {
  }
 
 /* Formulario caracteristicas */
+
+
 .contact  {
-    display: block;
+    display: inline-block;
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
-    }
+}
     
     .recuadro {
+        width: 74%;
         display: block;
         background: transparent;
         border:none;
@@ -118,6 +118,28 @@ body {
         outline: none;
     }
 
+
+    #recuadro1 {
+ 
+            background: transparent;
+          border:none;
+          border-bottom: 1px solid rgb(246, 191, 123);
+          font-family: "Montserrat";
+          margin: 30px 45px 20px 70px;
+          outline: none;
+      
+    }
+
+    #recuadro2 {
+ 
+        background: transparent;
+      border:none;
+      border-bottom: 1px solid rgb(246, 191, 123);
+      font-family: "Montserrat";
+      margin: 30px 75px 20px 0px;
+      outline: none;
+  
+}
     
     #boton {
     display: inline-block;

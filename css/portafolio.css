@@ -84,16 +84,3 @@ body {
     align-items: center;
     column-gap: 3%;
  }
-
-footer {
-    background-color: rgb(16, 16, 16);
-    width: 100%;
-    padding: 0px 10%;
- }
-
- footer p {
-    color: aliceblue;
-    text-align: center;
-    font-family: 'Montserrat';
-    font-size: 13px;
- }

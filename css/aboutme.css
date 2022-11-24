@@ -18,13 +18,17 @@ header nav {
 }
 
 #home {
+    margin-top: 10px;
+    margin-left: 10px;
     width: 35px;
-    height:40px;
-    line-height: 50px;
+    height:35px;
     float: left;  
-    display: block; 
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight:bolder;
+    color: aliceblue;
+    padding: 0%;
 }
-
 
 #menu1 {
     color:rgb(246, 191, 123);
@@ -92,4 +96,11 @@ body {
     text-align: center;
     font-family: 'Montserrat';
     font-size: 13px;
+ }
+
+ #video {
+width: 1000px;
+height: 500px;
+padding-bottom: 50px;
+
  }
